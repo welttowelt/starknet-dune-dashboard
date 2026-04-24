@@ -12,24 +12,28 @@ A compact view of Starknet usage over the last 90 days, focused on transactions,
 
 1. Daily Transactions
    - Query: `dune/queries/01_daily_transactions.sql`
+   - Dune query: https://dune.com/queries/7367013
    - Visualization: bar chart
    - X axis: `day`
    - Y axis: `transactions`
 
 2. Daily Active Senders
    - Query: `dune/queries/02_daily_active_senders.sql`
+   - Dune query: https://dune.com/queries/7367014
    - Visualization: line chart
    - X axis: `day`
    - Y axis: `active_senders`
 
 3. Success Rate
    - Query: `dune/queries/03_daily_success_rate.sql`
+   - Dune query: https://dune.com/queries/7367015
    - Visualization: line chart
    - X axis: `day`
    - Y axis: `success_rate_pct`
 
 4. Daily Fee Volume
    - Query: `dune/queries/04_daily_fees.sql`
+   - Dune query: https://dune.com/queries/7367016
    - Visualization: area chart
    - X axis: `day`
    - Y axis: `fee_volume_token_units`
