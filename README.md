@@ -43,6 +43,18 @@ A richer private overview query set is available in `dune/private-overview`.
 
 Private query IDs are recorded in `dune/private-overview/query-ids.json`, with dashboard assembly notes in `docs/private-overview-dashboard.md`.
 
+## Private Pool Monitor
+
+The pool-specific dashboard source is in `dune/pool-monitor`.
+
+Watched pool:
+
+`0x040337b1af3c663e86e333bab5a4b28da8d4652a15a69beee2b677776ffe812a`
+
+Private query IDs are recorded in `dune/pool-monitor/query-ids.json`, with dashboard assembly notes in `docs/private-pool-monitor-dashboard.md`.
+
+Additional event-oriented query IDs are recorded in `dune/pool-monitor/event-query-ids.json`.
+
 ## Notes
 
 The SQL is deliberately conservative and should work well as a starting point. You can extend it with contract-level metrics, token transfers, app-specific events, or Ekubo/JediSwap/AVNU activity once you decide which part of Starknet you want to monitor.
